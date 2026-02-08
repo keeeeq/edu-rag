@@ -1,0 +1,60 @@
+# IDE 和编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# 日志
+logs/
+*.log
+
+# 环境配置
+.env
+.env.local
+config.ini
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# ========== 大模型文件 (GitHub 限制 100MB) ==========
+# 模型权重文件
+*.safetensors
+*.bin
+*.onnx
+*.pt
+*.pth
+*.h5
+*.ckpt
+
+# 整个 models 目录
+rag_qa/models/
+
+# BERT 训练结果和分类器
+rag_qa/core/bert_query_classifier/
+rag_qa/core/bert_results/
+
+# 备份目录
+backup_before_fix/
+
+# ========== 测试数据和示例文件 ==========
+rag_qa/data/samples/
+rag_qa/data/ai_data/
+rag_qa/data/test_data/
+rag_qa/data/model/
+
+# ========== learn 目录中的个人文档 ==========
+learn/面试*.md
+
